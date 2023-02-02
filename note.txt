@@ -1,0 +1,29 @@
+
+
+- khoi tao repository folder muon day len gitlab: git init
+- Thiet lap duong dan trong terminal: git remote add origin https://gitlab.com/Tan_Tran_Van/masterwork_bs4.git
+- kiem tra remote git link toi: git remote show origin
+
+-upload code len remote : 3 buoc 
+ b1 chon toan bo file:   git add -A
+ b2 xac nhan:   git commit -m "create homepage.html"
+ b3 day len remote: 
+    + Lan dau:  git push -u origin master
+    + lan tao nhanh con va upload len nhanh con: git push -u origin feature/loginPage
+    + lan 2 tro di: git push
+-nhap username vs password gitlab
+
+
+-Tao nhanh con trong repository: git checkout -b feature/loginPage
+-Xem cac nhanh dang co trong repo: git branch
+-Quay lai 3 buoc upload len remote.
+
+- chuyen nhanh con ve nhanh chinh: git checkout master
+- merge code vao master: git merge feature/loginPage
+-Quay lai 3 buoc upload len remote.
+
+- Cach thanh vien tai code du an tu git lab ve may:
+    + copy link gitlab du an
+    + (may Mac) chon folder chua, chuot phai chon New terminal tab at folder, go lenh: git clone ....linkcopy...
+    + mo VCS chay terminal: git pull
+ 
